@@ -4,141 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./style.css">
     <title>Kit's Cafe</title>
 </head>
 <body>
     <header>
         <h1>Kit's Cafe</h1>
     </header>
-    <section id="section1">
-        <img src="images/coffee.jpg" alt="A cup of coffee sitting on top of unroasted coffee beans." width='250px' height='400px' id="coffeePic">
-        <div class="about">
+    <section>
+        <div id="banner"></div>
+        <div id="content">
             <p>
-                Welcome to Kit's Cafe!
+                Hi! My name is Miss Kitty Regina Lucy Carlton, and my parents like to say that I am the dirtiest of snowballs. I own this joint. I make the coffee. We hope you don't mind cat hair! 😉
             </p>
-        </div>
-    </section>
-    <section id="section2">
-        <div class="one-liner">
-            <p>
-                <em>The one and only cafe owned and managed by a dirty snowball!</em>
-            </p>
-        </div>
-        <img src="images/cafe.jpg" alt="A picture of someone working on their computer in a cafe." width="250px" height="400px" id="cafePic">
-        <div class="about">
-            <p style="margin: 10px;">
-                We have what you need! A space for work or casual meetings, and we are open 24/7! Join us any time!
-            </p>
+            <div id="menu">
+                <h3>Menu</h3>
+                <ul>
+                    <li>Hairball Biscuit -- $2.00</li>
+                    <li>Salmon & Chicken Iced Coffee w/ Paw Whipped Cream -- $3.75</li>
+                </ul>
+            </div>
+            <img src="./images/coffee.jpg" alt="">
         </div>
     </section>
     <footer>
-        <img src="images/tables.jpg" alt="A picture of tables in a cafe." width="50%" id="tablesPic">
-        <div id="footerInfo">
-            <h2>This is a demo site.</h2>
-            <p>
-                Based on one of my cats.<br/>
-                <br/>
-                Contact me!<br/>
-                <br/>
-                jacob@jacobhcarlton.com<br/>
-                <br/>
-                <a href="https://www.jacobhcarlton.com">jacobhcarlton.com</a>
-            </p>
-        </div>
+        <h2>made by Jacob</h2>
+        <a href="https://jacobhcarlton.com/">Contact Me</a>
     </footer>
 </body>
-<style>
-
-    body {
-        font-family: sans-serif;
-        margin: 0;
-        display: grid;
-        grid-gap: 10px;
-        /* border: 7px solid slategrey; */
-        background: linear-gradient(to bottom right, black, white);
-    }
-
-    header {
-        margin: 10px 0 10px 0;
-    }
-
-    h1 {
-        text-align: right;
-        padding-right: 20px;
-        font-size: 60px;
-        font-weight: 100;
-    }
-
-    h2 {
-        justify-self: center;
-    }
-
-    #section1 {
-        display: grid;
-        grid-template-columns: auto 1fr;
-    }
-
-    img {
-        box-shadow: 3px 1px 7px 2px black;
-    }
-
-    #coffeePic {
-        margin-left: 10px;
-        border-radius: 5px;
-    }
-
-    .about {
-        border: 5px solid teal;
-        border-radius: 5px;
-        margin: 0 10px 0 10px;
-        display: grid;
-        justify-content: center;
-        align-content: center;
-    }
-
-    .one-liner {
-        font-size: 30px;
-        margin: 0 10px 0 10px;
-        display: grid;
-        justify-content: center;
-        align-content: center;
-        text-indent: 20px;
-    }
-
-    #cafePic {
-        justify-self: end;
-        margin: 0 10px 0 10px;
-        grid-row: span 2;
-        width: 100%;
-        height: 100%;
-        border-radius: 5px;
-    }
-
-    #section2 {
-        display: grid;
-        grid-gap: 10px;
-        grid-template-columns: repeat(2, 1fr);
-        align-content: center;
-    }
-
-    footer {
-        display: grid;
-        grid-auto-flow: column;
-        grid-template-columns: repeat(2, 1fr);
-        height: 500px;
-    }
-
-    #footerInfo {
-        display: grid;
-        justify-items: center;
-        align-content: center;
-    }
-
-    #tablesPic {
-        margin-left: 10px;
-        width: 100%;
-        align-self: center;
-        border-radius: 5px;
-    }
-</style>
 </html>
